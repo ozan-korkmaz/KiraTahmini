@@ -6,15 +6,22 @@ Veriler Instant Data Scraper kullanılarak csv formatında elde edilmiştir.
 
 Proje Yapısı
 proje-dizini/
-hepsiemlak/                  # Ham veri dosyalarının bulunduğu klasör
 
-verileri_ayikla.ipynb        # Ham veriyi okur, temizler ve data.csv oluşturur
-İstatistiksel_inceleme.ipynb # Aykırı değerleri (outlier) temizler ve data_cleaned.csv üretir
-regresyon.ipynb              # Temizlenmiş veri ile fiyat tahmini (Linear Regression)
-siniflandirma.ipynb          # Fiyat aralıklarına göre sınıflandırma (RandomForestClassifier)
+hepsiemlak/                  ---> Ham veri dosyalarının bulunduğu klasör
 
-data.csv                     # Temizlenmiş ilk veri
-data_cleaned.csv             # İstatistiksel olarak filtrelenmiş son veri
+
+verileri_ayikla.ipynb        ---> Ham veriyi okur, temizler ve data.csv oluşturur
+
+İstatistiksel_inceleme.ipynb ---> Aykırı değerleri (outlier) temizler ve data_cleaned.csv üretir
+
+regresyon.ipynb              ---> Temizlenmiş veri ile fiyat tahmini (Linear Regression)
+
+siniflandirma.ipynb          ---> Fiyat aralıklarına göre sınıflandırma (RandomForestClassifier)
+
+
+data.csv                     ---> Temizlenmiş ilk veri
+
+data_cleaned.csv             ---> İstatistiksel olarak filtrelenmiş son veri
   
 
 
@@ -51,6 +58,7 @@ data_cleaned.csv             # İstatistiksel olarak filtrelenmiş son veri
 
 
 Kullanılan Kütüphaneler
+
 numpy  
 pandas  
 matplotlib  
